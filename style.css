@@ -1,0 +1,28 @@
+/* #game div {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+} */
+
+* {
+  background-color: lightgray;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#game div {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+
+
